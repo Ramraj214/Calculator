@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+}
+
+.container{
+    border: 5px solid orange;
+    width: 30vw;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.mx-auto{
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-dir{
+    flex-direction: column;
+}
+
+.align-item{
+    align-items: center;
+}
+
+.button{
+    padding: 20px;
+    margin: 0 8px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: rgba(232, 150, 28, 0.811) 0 5px 5px;
+}
+
+.row{
+    margin: 8px 0;
+}
+
+.minusPlus , .reset ,.backSpace ,.result{
+    padding: 20px;
+    margin: 0 8px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.row input{
+    font-size: 22px;
+    margin: 0;
+    padding: 10px 2px;
+    border: 2px solid black;
+    border-radius: 9px;
+    background-color: rgb(255, 219, 172);
+    color: purple;
+}
+
+.zero{
+    padding: 20px 56px;
+}
+
+.bg-color{
+    background-color: rgb(250, 173, 66);
+}
+
+@media (max-width : 950px){
+    .container{
+        border: 5px solid orange;
+        width: 40vw;
+        padding: 10px 0;
+        border-radius: 5px;
+    }
+}
+
+@media (max-width : 750px){
+    .container{
+        border: 5px solid orange;
+        width: 40vw;
+        padding: 5px 0;
+        border-radius: 5px;
+    }
+    .row input{
+        font-size: 15px;
+        margin: 0;
+        padding: 5px 2px;
+        border: 2px solid black;
+        border-radius: 9px;
+        background-color: rgb(255, 219, 172);
+        color: purple;
+    }
+    .button{
+        padding: 13px;
+        margin: 0 4px;
+        border: 2px solid black;
+        border-radius: 10px;
+        cursor: pointer;
+        box-shadow: rgba(232, 150, 28, 0.811) 0 5px 5px;
+    }
+}
+
+@media (max-width : 750px){
+    .container{
+        border: 5px solid orange;
+        width: 30vw;
+        padding: 5px 0;
+        border-radius: 5px;
+    }
+    .row input{
+        font-size: 15px;
+        margin: 0;
+        padding: 5px 2px;
+        border: 2px solid black;
+        border-radius: 9px;
+        background-color: rgb(255, 219, 172);
+        color: purple;
+    }
+    .button{
+        padding: 13px;
+        margin: 0 4px;
+        border: 2px solid black;
+        border-radius: 10px;
+        cursor: pointer;
+        box-shadow: rgba(232, 150, 28, 0.811) 0 5px 5px;
+    }
+}
+
+@media (max-width : 675px) {
+    .container{
+        border: 5px solid orange;
+        width: 30vw;
+        padding: 2.5px 0;
+        border-radius: 5px;
+    }
+    .row input{
+        font-size: 10px;
+        margin: 0;
+        padding: 2.5px 0px;
+        border: 2px solid black;
+        border-radius: 4px;
+        background-color: rgb(255, 219, 172);
+        color: purple;
+    }
+    .button{
+        padding: 6.5px;
+        margin: 0 2px;
+        border: 2px solid black;
+        border-radius: 5px;
+        cursor: pointer;
+        box-shadow: rgba(232, 150, 28, 0.811) 0 5px 5px;
+    }
+}
+
+@media (max-width : 450px) {
+    .container{
+        border: 5px solid orange;
+        width: 30vw;
+        padding: 2.5px 0;
+        border-radius: 5px;
+    }
+    .row input{
+        font-size: 7px;
+        margin: 0;
+        padding: 2.5px 0px;
+        border: 2px solid black;
+        border-radius: 4px;
+        background-color: rgb(255, 219, 172);
+        color: purple;
+    }
+    .button{
+        padding: 4px;
+        margin: 0 2px;
+        border: 2px solid black;
+        border-radius: 5px;
+        cursor: pointer;
+        box-shadow: rgba(232, 150, 28, 0.811) 0 5px 5px;
+    }
+}
+
+@media (max-width : 320px) {
+    .container{
+        border: 5px solid orange;
+        width: 30vw;
+        padding: 2.5px 0;
+        border-radius: 5px;
+    }
+    .row input{
+        font-size: 7px;
+        margin: 0;
+        padding: 2px 0px;
+        border: 2px solid black;
+        border-radius: 3px;
+        background-color: rgb(255, 219, 172);
+        color: purple;
+    }
+    .button{
+        padding: 2px;
+        margin: 0 1px;
+        border: 2px solid black;
+        border-radius: 3px;
+        cursor: pointer;
+        box-shadow: rgba(232, 150, 28, 0.811) 0 5px 5px;
+    }
+}
